@@ -1,0 +1,54 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: Arial, sans-serif; /* Шрифт текста */
+    background-color: #f4f4f4; /* Цвет фона */
+    color: #333; /* Цвет текста */
+    text-align: center; /* Центрирование текста */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Стили для заголовка h1 */
+h1 {
+    color: #007bff; /* Синий цвет заголовка */
+}
+
+/* Стили для списка */
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+}
+
+/* Располагаем элементы списка горизонтально */
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Стили для формы */
+form {
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+    body {
+        background-color: #ddd; /* Меняем фон на серый */
+    }
+
+    h1 {
+        font-size: 24px; /* Делаем заголовок меньше */
+    }
+
+    p {
+        font-size: 14px; /* Уменьшаем текст */
+    }
+
+    form {
+        width: 100%; /* Форма на всю ширину */
+        padding: 10px;
+    }
+}
