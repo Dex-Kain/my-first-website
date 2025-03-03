@@ -35,7 +35,10 @@ form {
 }
 /* Адаптивность для мобильных устройств */
 @media (max-width: 600px) {
-    body {
+    body {body 
+        font-family: 'Poppins', sans-serif;
+    
+    
         background-color: #ddd; /* Меняем фон на серый */
     }
 
@@ -74,4 +77,24 @@ form {
 .flex-container a:hover {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
+}
+/* Стили для кнопки */
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Эффект при наведении */
+.cta-button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+h1 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
